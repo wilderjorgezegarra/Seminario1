@@ -137,7 +137,7 @@ Partial Class Form3
         'CheckedListBox1
         '
         Me.CheckedListBox1.FormattingEnabled = True
-        Me.CheckedListBox1.Location = New System.Drawing.Point(77, 115)
+        Me.CheckedListBox1.Location = New System.Drawing.Point(68, 190)
         Me.CheckedListBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.CheckedListBox1.Name = "CheckedListBox1"
         Me.CheckedListBox1.Size = New System.Drawing.Size(81, 64)
