@@ -29,6 +29,7 @@ Partial Class Form3
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -122,6 +123,7 @@ Partial Class Form3
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.CheckedListBox1)
         Me.Panel1.Controls.Add(Me.Button4)
         Me.Panel1.Controls.Add(Me.Button3)
         Me.Panel1.Controls.Add(Me.Button2)
@@ -131,6 +133,15 @@ Partial Class Form3
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(792, 406)
         Me.Panel1.TabIndex = 8
+        '
+        'CheckedListBox1
+        '
+        Me.CheckedListBox1.FormattingEnabled = True
+        Me.CheckedListBox1.Location = New System.Drawing.Point(46, 115)
+        Me.CheckedListBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CheckedListBox1.Name = "CheckedListBox1"
+        Me.CheckedListBox1.Size = New System.Drawing.Size(81, 64)
+        Me.CheckedListBox1.TabIndex = 5
         '
         'Button3
         '
@@ -179,7 +190,7 @@ Partial Class Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1028, 531)
+        Me.ClientSize = New System.Drawing.Size(685, 487)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Panel1)
@@ -204,4 +215,5 @@ Partial Class Form3
     Friend WithEvents Button5 As Button
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
+    Friend WithEvents CheckedListBox1 As CheckedListBox
 End Class
