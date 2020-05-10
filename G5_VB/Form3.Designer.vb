@@ -35,6 +35,7 @@ Partial Class Form3
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -129,6 +130,7 @@ Partial Class Form3
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.Button6)
         Me.Panel1.Controls.Add(Me.CheckedListBox1)
         Me.Panel1.Controls.Add(Me.Button4)
         Me.Panel1.Controls.Add(Me.Button3)
@@ -197,6 +199,15 @@ Partial Class Form3
         Me.CheckedListBox1.Size = New System.Drawing.Size(120, 96)
         Me.CheckedListBox1.TabIndex = 5
         '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(104, 337)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(75, 23)
+        Me.Button6.TabIndex = 6
+        Me.Button6.Text = "Button6"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -228,4 +239,5 @@ Partial Class Form3
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents CheckedListBox1 As CheckedListBox
+    Friend WithEvents Button6 As Button
 End Class
