@@ -29,12 +29,12 @@ Partial Class Form3
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -45,10 +45,9 @@ Partial Class Form3
         Me.Panel2.Controls.Add(Me.Button5)
         Me.Panel2.Controls.Add(Me.Button7)
         Me.Panel2.Controls.Add(Me.Button8)
-        Me.Panel2.Location = New System.Drawing.Point(0, 111)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel2.Location = New System.Drawing.Point(0, 72)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(320, 718)
+        Me.Panel2.Size = New System.Drawing.Size(213, 467)
         Me.Panel2.TabIndex = 10
         '
         'Button5
@@ -60,11 +59,10 @@ Partial Class Form3
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button5.Location = New System.Drawing.Point(0, 135)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button5.Location = New System.Drawing.Point(0, 88)
         Me.Button5.Name = "Button5"
         Me.Button5.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button5.Size = New System.Drawing.Size(322, 75)
+        Me.Button5.Size = New System.Drawing.Size(215, 49)
         Me.Button5.TabIndex = 10
         Me.Button5.Text = "Transparencia"
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -79,11 +77,10 @@ Partial Class Form3
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button7.Location = New System.Drawing.Point(0, 66)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button7.Location = New System.Drawing.Point(0, 43)
         Me.Button7.Name = "Button7"
         Me.Button7.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button7.Size = New System.Drawing.Size(322, 75)
+        Me.Button7.Size = New System.Drawing.Size(215, 49)
         Me.Button7.TabIndex = 8
         Me.Button7.Text = "Escuelas"
         Me.Button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -98,11 +95,10 @@ Partial Class Form3
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button8.Location = New System.Drawing.Point(0, -3)
-        Me.Button8.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button8.Location = New System.Drawing.Point(0, -2)
         Me.Button8.Name = "Button8"
         Me.Button8.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button8.Size = New System.Drawing.Size(322, 75)
+        Me.Button8.Size = New System.Drawing.Size(215, 49)
         Me.Button8.TabIndex = 7
         Me.Button8.Text = "Inicio"
         Me.Button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -110,19 +106,17 @@ Partial Class Form3
         '
         'FlowLayoutPanel1
         '
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 5)
-        Me.FlowLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 3)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(320, 112)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(213, 73)
         Me.FlowLayoutPanel1.TabIndex = 9
         '
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(87, 68)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button4.Location = New System.Drawing.Point(58, 44)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(80, 49)
+        Me.Button4.Size = New System.Drawing.Size(53, 32)
         Me.Button4.TabIndex = 4
         Me.Button4.Text = "X"
         Me.Button4.UseVisualStyleBackColor = True
@@ -135,38 +129,43 @@ Partial Class Form3
         Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Panel4)
-        Me.Panel1.Location = New System.Drawing.Point(320, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel1.Location = New System.Drawing.Point(213, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1188, 625)
+        Me.Panel1.Size = New System.Drawing.Size(792, 406)
         Me.Panel1.TabIndex = 8
+        '
+        'CheckedListBox1
+        '
+        Me.CheckedListBox1.FormattingEnabled = True
+        Me.CheckedListBox1.Location = New System.Drawing.Point(58, 173)
+        Me.CheckedListBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CheckedListBox1.Name = "CheckedListBox1"
+        Me.CheckedListBox1.Size = New System.Drawing.Size(81, 64)
+        Me.CheckedListBox1.TabIndex = 5
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(876, 526)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button3.Location = New System.Drawing.Point(584, 342)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(154, 49)
+        Me.Button3.Size = New System.Drawing.Size(103, 32)
         Me.Button3.TabIndex = 3
         Me.Button3.Text = "Button3"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(680, 526)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button2.Location = New System.Drawing.Point(453, 342)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(154, 49)
+        Me.Button2.Size = New System.Drawing.Size(103, 32)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "form2"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(468, 526)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button1.Location = New System.Drawing.Point(312, 342)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(154, 49)
+        Me.Button1.Size = New System.Drawing.Size(103, 32)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "form1"
         Me.Button1.UseVisualStyleBackColor = True
@@ -174,39 +173,28 @@ Partial Class Form3
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.Panel4.Location = New System.Drawing.Point(274, 68)
-        Me.Panel4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel4.Location = New System.Drawing.Point(183, 44)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(756, 428)
+        Me.Panel4.Size = New System.Drawing.Size(504, 278)
         Me.Panel4.TabIndex = 0
         '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.Panel3.Location = New System.Drawing.Point(321, 628)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel3.Location = New System.Drawing.Point(214, 408)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1185, 200)
+        Me.Panel3.Size = New System.Drawing.Size(790, 130)
         Me.Panel3.TabIndex = 11
-        '
-        'CheckedListBox1
-        '
-        Me.CheckedListBox1.FormattingEnabled = True
-        Me.CheckedListBox1.Location = New System.Drawing.Point(125, 86)
-        Me.CheckedListBox1.Name = "CheckedListBox1"
-        Me.CheckedListBox1.Size = New System.Drawing.Size(120, 96)
-        Me.CheckedListBox1.TabIndex = 5
         '
         'Form3
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1552, 817)
+        Me.ClientSize = New System.Drawing.Size(685, 487)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel3)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Form3"
         Me.Text = "Form3"
         Me.Panel2.ResumeLayout(False)
