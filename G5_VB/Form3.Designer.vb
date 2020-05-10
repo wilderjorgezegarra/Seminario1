@@ -114,7 +114,7 @@ Partial Class Form3
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(58, 44)
+        Me.Button4.Location = New System.Drawing.Point(58, 53)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(53, 32)
         Me.Button4.TabIndex = 4
@@ -138,7 +138,7 @@ Partial Class Form3
         '
         Me.CheckedListBox1.FormattingEnabled = True
         Me.CheckedListBox1.Location = New System.Drawing.Point(58, 131)
-        Me.CheckedListBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.CheckedListBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.CheckedListBox1.Name = "CheckedListBox1"
         Me.CheckedListBox1.Size = New System.Drawing.Size(81, 64)
         Me.CheckedListBox1.TabIndex = 5
