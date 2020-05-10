@@ -23,6 +23,9 @@ Partial Class Form3
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -31,9 +34,6 @@ Partial Class Form3
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -48,6 +48,60 @@ Partial Class Form3
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(213, 467)
         Me.Panel2.TabIndex = 10
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button5.Cursor = System.Windows.Forms.Cursors.No
+        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button5.Location = New System.Drawing.Point(0, 88)
+        Me.Button5.Name = "Button5"
+        Me.Button5.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.Button5.Size = New System.Drawing.Size(215, 49)
+        Me.Button5.TabIndex = 10
+        Me.Button5.Text = "Transparencia"
+        Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button7.Cursor = System.Windows.Forms.Cursors.No
+        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button7.Location = New System.Drawing.Point(0, 43)
+        Me.Button7.Name = "Button7"
+        Me.Button7.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.Button7.Size = New System.Drawing.Size(215, 49)
+        Me.Button7.TabIndex = 8
+        Me.Button7.Text = "Escuelas"
+        Me.Button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button7.UseVisualStyleBackColor = False
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button8.Cursor = System.Windows.Forms.Cursors.No
+        Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button8.Location = New System.Drawing.Point(0, -2)
+        Me.Button8.Name = "Button8"
+        Me.Button8.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.Button8.Size = New System.Drawing.Size(215, 49)
+        Me.Button8.TabIndex = 7
+        Me.Button8.Text = "Inicio"
+        Me.Button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.Button8.UseVisualStyleBackColor = False
         '
         'FlowLayoutPanel1
         '
@@ -121,65 +175,11 @@ Partial Class Form3
         Me.Panel3.Size = New System.Drawing.Size(790, 130)
         Me.Panel3.TabIndex = 11
         '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button5.Cursor = System.Windows.Forms.Cursors.No
-        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button5.Location = New System.Drawing.Point(0, 88)
-        Me.Button5.Name = "Button5"
-        Me.Button5.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button5.Size = New System.Drawing.Size(215, 49)
-        Me.Button5.TabIndex = 10
-        Me.Button5.Text = "Transparencia"
-        Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button5.UseVisualStyleBackColor = False
-        '
-        'Button7
-        '
-        Me.Button7.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button7.Cursor = System.Windows.Forms.Cursors.No
-        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button7.Location = New System.Drawing.Point(0, 43)
-        Me.Button7.Name = "Button7"
-        Me.Button7.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button7.Size = New System.Drawing.Size(215, 49)
-        Me.Button7.TabIndex = 8
-        Me.Button7.Text = "Escuelas"
-        Me.Button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button7.UseVisualStyleBackColor = False
-        '
-        'Button8
-        '
-        Me.Button8.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button8.Cursor = System.Windows.Forms.Cursors.No
-        Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button8.Location = New System.Drawing.Point(0, -2)
-        Me.Button8.Name = "Button8"
-        Me.Button8.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button8.Size = New System.Drawing.Size(215, 49)
-        Me.Button8.TabIndex = 7
-        Me.Button8.Text = "Inicio"
-        Me.Button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button8.UseVisualStyleBackColor = False
-        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1035, 531)
+        Me.ClientSize = New System.Drawing.Size(1028, 531)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Panel1)
