@@ -29,6 +29,7 @@ Partial Class Form6
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.txtBuscar = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Panel1
@@ -107,11 +108,21 @@ Partial Class Form6
         Me.Button5.Text = "Inicio"
         Me.Button5.UseVisualStyleBackColor = False
         '
+        'txtBuscar
+        '
+        Me.txtBuscar.ForeColor = System.Drawing.SystemColors.ScrollBar
+        Me.txtBuscar.Location = New System.Drawing.Point(116, 22)
+        Me.txtBuscar.Name = "txtBuscar"
+        Me.txtBuscar.Size = New System.Drawing.Size(120, 20)
+        Me.txtBuscar.TabIndex = 7
+        Me.txtBuscar.Text = "escribe aqui"
+        '
         'Form6
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.txtBuscar)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -122,6 +133,7 @@ Partial Class Form6
         Me.Name = "Form6"
         Me.Text = "Form6"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -132,4 +144,5 @@ Partial Class Form6
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
+    Friend WithEvents txtBuscar As TextBox
 End Class
