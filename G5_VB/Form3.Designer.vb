@@ -36,6 +36,7 @@ Partial Class Form3
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
         Me.Button6 = New System.Windows.Forms.Button()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -130,6 +131,7 @@ Partial Class Form3
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.ComboBox1)
         Me.Panel1.Controls.Add(Me.Button6)
         Me.Panel1.Controls.Add(Me.CheckedListBox1)
         Me.Panel1.Controls.Add(Me.Button4)
@@ -208,6 +210,14 @@ Partial Class Form3
         Me.Button6.Text = "Button6"
         Me.Button6.UseVisualStyleBackColor = True
         '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(75, 390)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 28)
+        Me.ComboBox1.TabIndex = 7
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -240,4 +250,5 @@ Partial Class Form3
     Friend WithEvents Button8 As Button
     Friend WithEvents CheckedListBox1 As CheckedListBox
     Friend WithEvents Button6 As Button
+    Friend WithEvents ComboBox1 As ComboBox
 End Class
