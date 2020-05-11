@@ -35,8 +35,11 @@ Partial Class Form3
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        Me.Panel4.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel2
@@ -123,6 +126,7 @@ Partial Class Form3
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.CheckedListBox1)
         Me.Panel1.Controls.Add(Me.Button4)
         Me.Panel1.Controls.Add(Me.Button3)
@@ -173,6 +177,7 @@ Partial Class Form3
         'Panel4
         '
         Me.Panel4.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.Panel4.Controls.Add(Me.Label2)
         Me.Panel4.Location = New System.Drawing.Point(183, 44)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(504, 278)
@@ -185,6 +190,24 @@ Partial Class Form3
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(790, 130)
         Me.Panel3.TabIndex = 11
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(77, 273)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 6
+        Me.Label1.Text = "Label1"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(145, 4)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "Label2"
         '
         'Form3
         '
@@ -199,6 +222,9 @@ Partial Class Form3
         Me.Text = "Form3"
         Me.Panel2.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.Panel4.ResumeLayout(False)
+        Me.Panel4.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -216,4 +242,6 @@ Partial Class Form3
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents CheckedListBox1 As CheckedListBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
 End Class
