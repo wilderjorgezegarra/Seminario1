@@ -41,29 +41,26 @@ Partial Class Form1
         '
         Me.Panel1.BackColor = System.Drawing.Color.GreenYellow
         Me.Panel1.Controls.Add(Me.Label4)
-        Me.Panel1.Location = New System.Drawing.Point(321, 2)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel1.Location = New System.Drawing.Point(214, 1)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1188, 625)
+        Me.Panel1.Size = New System.Drawing.Size(792, 406)
         Me.Panel1.TabIndex = 0
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(489, 254)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Location = New System.Drawing.Point(326, 165)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(139, 29)
+        Me.Label4.Size = New System.Drawing.Size(82, 18)
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "label image"
         '
         'FlowLayoutPanel1
         '
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(2, 6)
-        Me.FlowLayoutPanel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(1, 4)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(320, 112)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(213, 73)
         Me.FlowLayoutPanel1.TabIndex = 1
         '
         'Panel2
@@ -74,10 +71,9 @@ Partial Class Form1
         Me.Panel2.Controls.Add(Me.Button3)
         Me.Panel2.Controls.Add(Me.Button2)
         Me.Panel2.Controls.Add(Me.Button1)
-        Me.Panel2.Location = New System.Drawing.Point(2, 112)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel2.Location = New System.Drawing.Point(1, 73)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(320, 718)
+        Me.Panel2.Size = New System.Drawing.Size(213, 467)
         Me.Panel2.TabIndex = 2
         '
         'Button6
@@ -89,11 +85,10 @@ Partial Class Form1
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button6.Location = New System.Drawing.Point(0, 285)
-        Me.Button6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button6.Location = New System.Drawing.Point(0, 185)
         Me.Button6.Name = "Button6"
         Me.Button6.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button6.Size = New System.Drawing.Size(322, 75)
+        Me.Button6.Size = New System.Drawing.Size(215, 49)
         Me.Button6.TabIndex = 8
         Me.Button6.Text = "FORMULARIO 6"
         Me.Button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -108,11 +103,10 @@ Partial Class Form1
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button5.Location = New System.Drawing.Point(0, 214)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button5.Location = New System.Drawing.Point(0, 139)
         Me.Button5.Name = "Button5"
         Me.Button5.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button5.Size = New System.Drawing.Size(322, 75)
+        Me.Button5.Size = New System.Drawing.Size(215, 49)
         Me.Button5.TabIndex = 7
         Me.Button5.Text = "Button5"
         Me.Button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -127,11 +121,10 @@ Partial Class Form1
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button4.Location = New System.Drawing.Point(0, 409)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button4.Location = New System.Drawing.Point(0, 266)
         Me.Button4.Name = "Button4"
         Me.Button4.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button4.Size = New System.Drawing.Size(322, 75)
+        Me.Button4.Size = New System.Drawing.Size(215, 49)
         Me.Button4.TabIndex = 6
         Me.Button4.Text = "Transparencia"
         Me.Button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -146,11 +139,10 @@ Partial Class Form1
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button3.Location = New System.Drawing.Point(0, 145)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button3.Location = New System.Drawing.Point(0, 94)
         Me.Button3.Name = "Button3"
         Me.Button3.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button3.Size = New System.Drawing.Size(322, 75)
+        Me.Button3.Size = New System.Drawing.Size(215, 49)
         Me.Button3.TabIndex = 5
         Me.Button3.Text = "Button3"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -165,11 +157,10 @@ Partial Class Form1
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button2.Location = New System.Drawing.Point(0, 74)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button2.Location = New System.Drawing.Point(0, 48)
         Me.Button2.Name = "Button2"
         Me.Button2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button2.Size = New System.Drawing.Size(322, 75)
+        Me.Button2.Size = New System.Drawing.Size(215, 49)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "Escuelas"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -184,11 +175,10 @@ Partial Class Form1
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button1.Location = New System.Drawing.Point(0, 5)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Button1.Location = New System.Drawing.Point(0, 3)
         Me.Button1.Name = "Button1"
         Me.Button1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button1.Size = New System.Drawing.Size(322, 75)
+        Me.Button1.Size = New System.Drawing.Size(215, 49)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Inicio"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -197,22 +187,20 @@ Partial Class Form1
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.Panel3.Location = New System.Drawing.Point(322, 629)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel3.Location = New System.Drawing.Point(215, 409)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1185, 200)
+        Me.Panel3.Size = New System.Drawing.Size(790, 130)
         Me.Panel3.TabIndex = 3
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1506, 828)
+        Me.ClientSize = New System.Drawing.Size(856, 508)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Panel1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
