@@ -50,9 +50,10 @@
 
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
 
-        Form2.Show()
+        'Form3.Show()
         'Dim form2 As New Form2
-        Me.Hide()
+        'Me.Hide()
+        MessageBox.Show("En construcción")
 
     End Sub
 
