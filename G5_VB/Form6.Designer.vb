@@ -24,7 +24,7 @@ Partial Class Form6
     Private Sub InitializeComponent()
         Me.dgv_Empleados = New System.Windows.Forms.DataGridView()
         Me.btnNuevo = New System.Windows.Forms.Button()
-        Me.btnEditar = New System.Windows.Forms.Button()
+        Me.btnRegistrarProfesores = New System.Windows.Forms.Button()
         Me.btnEliminar = New System.Windows.Forms.Button()
         CType(Me.dgv_Empleados, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -39,29 +39,32 @@ Partial Class Form6
         '
         'btnNuevo
         '
-        Me.btnNuevo.Location = New System.Drawing.Point(634, 57)
+        Me.btnNuevo.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnNuevo.Location = New System.Drawing.Point(634, 114)
         Me.btnNuevo.Name = "btnNuevo"
-        Me.btnNuevo.Size = New System.Drawing.Size(110, 58)
+        Me.btnNuevo.Size = New System.Drawing.Size(110, 52)
         Me.btnNuevo.TabIndex = 1
-        Me.btnNuevo.Text = "NUEVO"
+        Me.btnNuevo.Text = "Registrar Alumnos"
         Me.btnNuevo.UseVisualStyleBackColor = True
         '
-        'btnEditar
+        'btnRegistrarProfesores
         '
-        Me.btnEditar.Location = New System.Drawing.Point(634, 138)
-        Me.btnEditar.Name = "btnEditar"
-        Me.btnEditar.Size = New System.Drawing.Size(110, 58)
-        Me.btnEditar.TabIndex = 2
-        Me.btnEditar.Text = "EDITAR"
-        Me.btnEditar.UseVisualStyleBackColor = True
+        Me.btnRegistrarProfesores.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRegistrarProfesores.Location = New System.Drawing.Point(634, 35)
+        Me.btnRegistrarProfesores.Name = "btnRegistrarProfesores"
+        Me.btnRegistrarProfesores.Size = New System.Drawing.Size(110, 51)
+        Me.btnRegistrarProfesores.TabIndex = 2
+        Me.btnRegistrarProfesores.Text = "Registrar Profesores"
+        Me.btnRegistrarProfesores.UseVisualStyleBackColor = True
         '
         'btnEliminar
         '
-        Me.btnEliminar.Location = New System.Drawing.Point(634, 225)
+        Me.btnEliminar.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnEliminar.Location = New System.Drawing.Point(634, 298)
         Me.btnEliminar.Name = "btnEliminar"
-        Me.btnEliminar.Size = New System.Drawing.Size(110, 58)
+        Me.btnEliminar.Size = New System.Drawing.Size(110, 37)
         Me.btnEliminar.TabIndex = 3
-        Me.btnEliminar.Text = "ELIMINAR"
+        Me.btnEliminar.Text = "Regresar"
         Me.btnEliminar.UseVisualStyleBackColor = True
         '
         'Form6
@@ -70,7 +73,7 @@ Partial Class Form6
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 380)
         Me.Controls.Add(Me.btnEliminar)
-        Me.Controls.Add(Me.btnEditar)
+        Me.Controls.Add(Me.btnRegistrarProfesores)
         Me.Controls.Add(Me.dgv_Empleados)
         Me.Controls.Add(Me.btnNuevo)
         Me.Name = "Form6"
@@ -82,6 +85,6 @@ Partial Class Form6
     End Sub
     Friend WithEvents dgv_Empleados As DataGridView
     Friend WithEvents btnNuevo As Button
-    Friend WithEvents btnEditar As Button
+    Friend WithEvents btnRegistrarProfesores As Button
     Friend WithEvents btnEliminar As Button
 End Class

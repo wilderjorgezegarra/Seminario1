@@ -9,7 +9,7 @@ Public Class cls_Datos
     'Mostrar TABLA
     Public Function D_ListarEmpleados() As DataTable
 
-        Dim cmd As New SqlCommand("SELECT * FROM dbo.Empleados", cn)
+        Dim cmd As New SqlCommand("SELECT * FROM dbo.Alumnos", cn)
         cn.Open()
         cmd.CommandType = CommandType.Text
         Dim da As New SqlDataAdapter(cmd)
@@ -21,7 +21,7 @@ Public Class cls_Datos
     End Function
 
     Public Sub D_InsertarEmpleados(enti As cls_Entidad)
-        Dim cmd As New SqlCommand("INSERT INTO EMPLEADOS VALUES (@nombres, @edad, @sexo, @escuela)", cn)
+        Dim cmd As New SqlCommand("INSERT INTO ALUMNOS VALUES (@nombres, @edad, @sexo, @escuela)", cn)
         cn.Open()
         cmd.CommandType = CommandType.Text
         With cmd.Parameters

@@ -21,4 +21,15 @@ Public Class Form6
         ListarEmpleado()
 
     End Sub
+
+    Private Sub btnEliminar_Click(sender As Object, e As EventArgs) Handles btnEliminar.Click
+        Form1.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub btnEditar_Click(sender As Object, e As EventArgs) Handles btnRegistrarProfesores.Click
+        Dim form3 As New Form3
+        form3.ShowDialog()
+        ListarEmpleado()
+    End Sub
 End Class
