@@ -34,6 +34,7 @@ Partial Class FormVF
         Me.dgv_Asignaturas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgv_Asignaturas.Location = New System.Drawing.Point(12, 24)
         Me.dgv_Asignaturas.Name = "dgv_Asignaturas"
+        Me.dgv_Asignaturas.ReadOnly = True
         Me.dgv_Asignaturas.RowHeadersWidth = 62
         Me.dgv_Asignaturas.RowTemplate.Height = 28
         Me.dgv_Asignaturas.Size = New System.Drawing.Size(493, 362)

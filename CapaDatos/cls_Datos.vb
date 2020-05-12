@@ -32,7 +32,7 @@ Public Class cls_Datos
 
     'Eliminar asignaturas
     Public Sub D_eliminarAsignatura(enti As cls_Entidad)
-        Dim cmd As New SqlCommand("delete from Asignatura where nomAsi=@nomAsi", cn)
+        Dim cmd As New SqlCommand("delete from Asignatura where codAsi=@nomAsi", cn)
         cn.Open()
         cmd.CommandType = CommandType.Text
         With cmd.Parameters
