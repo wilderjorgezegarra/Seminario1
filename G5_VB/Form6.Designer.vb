@@ -34,17 +34,19 @@ Partial Class Form6
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Panel1.Location = New System.Drawing.Point(196, 29)
+        Me.Panel1.Location = New System.Drawing.Point(294, 45)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(384, 109)
+        Me.Panel1.Size = New System.Drawing.Size(576, 168)
         Me.Panel1.TabIndex = 0
         '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.Panel2.Location = New System.Drawing.Point(25, 160)
+        Me.Panel2.Location = New System.Drawing.Point(81, 223)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(858, 340)
+        Me.Panel2.Size = New System.Drawing.Size(1143, 292)
         Me.Panel2.TabIndex = 1
         '
         'Button1
@@ -52,9 +54,10 @@ Partial Class Form6
         Me.Button1.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button1.Location = New System.Drawing.Point(635, 29)
+        Me.Button1.Location = New System.Drawing.Point(952, 45)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(91, 31)
+        Me.Button1.Size = New System.Drawing.Size(136, 48)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "GUARDAR"
         Me.Button1.UseVisualStyleBackColor = False
@@ -64,9 +67,10 @@ Partial Class Form6
         Me.Button2.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button2.Location = New System.Drawing.Point(635, 80)
+        Me.Button2.Location = New System.Drawing.Point(952, 123)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(91, 32)
+        Me.Button2.Size = New System.Drawing.Size(136, 49)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "ELIMINAR"
         Me.Button2.UseVisualStyleBackColor = False
@@ -76,9 +80,10 @@ Partial Class Form6
         Me.Button3.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button3.Location = New System.Drawing.Point(757, 29)
+        Me.Button3.Location = New System.Drawing.Point(1136, 45)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(100, 31)
+        Me.Button3.Size = New System.Drawing.Size(150, 48)
         Me.Button3.TabIndex = 4
         Me.Button3.Text = "MODIFICAR"
         Me.Button3.UseVisualStyleBackColor = False
@@ -88,9 +93,10 @@ Partial Class Form6
         Me.Button4.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button4.Location = New System.Drawing.Point(757, 80)
+        Me.Button4.Location = New System.Drawing.Point(1136, 123)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(111, 32)
+        Me.Button4.Size = New System.Drawing.Size(166, 49)
         Me.Button4.TabIndex = 5
         Me.Button4.Text = "ACTUALIZAR"
         Me.Button4.UseVisualStyleBackColor = False
@@ -100,18 +106,19 @@ Partial Class Form6
         Me.Button5.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button5.Location = New System.Drawing.Point(54, 107)
+        Me.Button5.Location = New System.Drawing.Point(81, 165)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 31)
+        Me.Button5.Size = New System.Drawing.Size(112, 48)
         Me.Button5.TabIndex = 6
         Me.Button5.Text = "Inicio"
         Me.Button5.UseVisualStyleBackColor = False
         '
         'Form6
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(895, 518)
+        Me.ClientSize = New System.Drawing.Size(1342, 797)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -119,6 +126,7 @@ Partial Class Form6
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "Form6"
         Me.Text = "Form6"
         Me.ResumeLayout(False)

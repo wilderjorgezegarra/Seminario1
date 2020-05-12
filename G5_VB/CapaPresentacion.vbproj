@@ -92,6 +92,24 @@
     <Compile Include="Form3.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormVF3.Designer.vb">
+      <DependentUpon>FormVF3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormVF3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVF2.Designer.vb">
+      <DependentUpon>FormVF2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormVF2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVF.Designer.vb">
+      <DependentUpon>FormVF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormVF.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form6.Designer.vb">
       <DependentUpon>Form6.vb</DependentUpon>
     </Compile>
@@ -102,6 +120,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -124,8 +143,17 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormVF2.resx">
+      <DependentUpon>FormVF2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVF.resx">
+      <DependentUpon>FormVF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVF3.resx">
+      <DependentUpon>FormVF3.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
