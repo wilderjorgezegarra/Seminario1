@@ -48,7 +48,7 @@
 
     End Sub
 
-    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click_1(sender As Object, e As EventArgs)
 
         Form2.Show()
         'Dim form2 As New Form2
@@ -56,7 +56,7 @@
 
     End Sub
 
-    Private Sub Button4_Click_1(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Button4_Click_1(sender As Object, e As EventArgs)
         Form3.Show()
         'Dim form2 As New Form2
         Me.Hide()
