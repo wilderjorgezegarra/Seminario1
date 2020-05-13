@@ -26,6 +26,8 @@ Partial Class Form1
         Me.btn_Editar = New System.Windows.Forms.Button()
         Me.btn_Eliminar = New System.Windows.Forms.Button()
         Me.dgv_Asignaturas = New System.Windows.Forms.DataGridView()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.dgv_Asignaturas, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -64,11 +66,31 @@ Partial Class Form1
         Me.dgv_Asignaturas.Size = New System.Drawing.Size(327, 150)
         Me.dgv_Asignaturas.TabIndex = 3
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(0, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Label1"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(26, 175)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 13)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "Label2"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(351, 202)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.dgv_Asignaturas)
         Me.Controls.Add(Me.btn_Eliminar)
         Me.Controls.Add(Me.btn_Editar)
@@ -77,6 +99,7 @@ Partial Class Form1
         Me.Text = "Form1"
         CType(Me.dgv_Asignaturas, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -84,4 +107,6 @@ Partial Class Form1
     Friend WithEvents btn_Editar As Button
     Friend WithEvents btn_Eliminar As Button
     Friend WithEvents dgv_Asignaturas As DataGridView
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
 End Class
